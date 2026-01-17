@@ -175,9 +175,24 @@ CARDS_PER_PAGE = 3
 
 # ==================== POKEMON TYPES ====================
 POKEMON_TYPES = [
-    "Normal", "Fire", "Water", "Electric", "Grass", "Ice",
-    "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug",
-    "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy"
+    "Normal",
+    "Fire",
+    "Water",
+    "Electric",
+    "Grass",
+    "Ice",
+    "Fighting",
+    "Poison",
+    "Ground",
+    "Flying",
+    "Psychic",
+    "Bug",
+    "Rock",
+    "Ghost",
+    "Dragon",
+    "Dark",
+    "Steel",
+    "Fairy",
 ]
 
 # ==================== SEARCH BAR ====================
@@ -217,11 +232,24 @@ PAGE_LBL_Y = 515
 
 # ==================== TYPE DATA ====================
 TYPE_IDS = {
-    'normal': 1, 'fighting': 2, 'flying': 3, 'poison': 4,
-    'ground': 5, 'rock': 6, 'bug': 7, 'ghost': 8,
-    'steel': 9, 'fire': 10, 'water': 11, 'grass': 12,
-    'electric': 13, 'psychic': 14, 'ice': 15, 'dragon': 16,
-    'dark': 17, 'fairy': 18,
+    "normal": 1,
+    "fighting": 2,
+    "flying": 3,
+    "poison": 4,
+    "ground": 5,
+    "rock": 6,
+    "bug": 7,
+    "ghost": 8,
+    "steel": 9,
+    "fire": 10,
+    "water": 11,
+    "grass": 12,
+    "electric": 13,
+    "psychic": 14,
+    "ice": 15,
+    "dragon": 16,
+    "dark": 17,
+    "fairy": 18,
 }
 
 TYPE_ICON_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-viii/sword-shield"
@@ -237,9 +265,9 @@ MENU_LABEL_OFFSET_X = 75
 MENU_LABEL_OFFSET_Y = 220
 
 MENU_APPS = [
-    {'name': 'How to Use', 'icon': TUTORIAL_ICON, 'frame': 'HowToUseFrame'},
-    {'name': 'Pokédex', 'icon': POKEDEX_ICON, 'frame': 'PokedexFrame'},
-    {'name': 'Team Builder', 'icon': TEAM_BUILDER_ICON, 'frame': 'TeamBuilderFrame'},
+    {"name": "How to Use", "icon": TUTORIAL_ICON, "frame": "HowToUseFrame"},
+    {"name": "Pokédex", "icon": POKEDEX_ICON, "frame": "PokedexFrame"},
+    {"name": "Team Builder", "icon": TEAM_BUILDER_ICON, "frame": "TeamBuilderFrame"},
 ]
 
 # ==================== TEAM BUILDER ====================
@@ -281,12 +309,12 @@ STAT_BAR_ANIM_SPEED = 10
 ANALYTICS_MAX_STAT = 150
 
 STAT_COLORS = {
-    'hp': '#FF5959',
-    'attack': '#F5AC78',
-    'defense': '#FAE078',
-    'sp_attack': '#9DB7F5',
-    'sp_defense': '#A7DB8D',
-    'speed': '#FA92B2'
+    "hp": "#FF5959",
+    "attack": "#F5AC78",
+    "defense": "#FAE078",
+    "sp_attack": "#9DB7F5",
+    "sp_defense": "#A7DB8D",
+    "speed": "#FA92B2",
 }
 
 RESIST_COLOR = "#4CAF50"
